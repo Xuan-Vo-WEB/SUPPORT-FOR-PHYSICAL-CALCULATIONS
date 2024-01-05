@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Con lắc lò xo</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+  body {
+    background: #ffffff url("anh/loxo.jpg") no-repeat fixed center; 
+    background-size: 100%;
+  }
+  .image1 {
+    display: inline-block;
+    margin-left: 20px;
+    border: 2px solid #000000;
+    cursor: pointer;
+  }
+
+  .image {
+  margin-left: 264px; /* Thay đổi giá trị 10px tùy ý */
+  border: 2px solid #000000;
+  cursor: pointer;
+  }
+
+/*D:/CODE/YOUNG/giải lí/*/
+</style>
+<body>
+    <h1>CON LẮC LÒ XO</h1>
+
+    <div id="inputs">
+        <label for="mass">Khối lượng (kg): </label>
+        <input type="number" id="mass"><br>
+
+        <label for="stiffness">Độ cứng (N/m): </label>
+        <input type="number" id="stiffness"><br>
+
+        <label for="tansogoc">Tần số gốc (Rad/s): </label>
+        <input type="number" id="tansogoc"><br>
+
+        <label for="chuki">Chu kì (s): </label>
+        <input type="number" id="chuki"><br>
+
+        <label for="tanso">Tần số (Hz): </label>
+        <input type="number" id="tanso"><br>
+
+        <button onclick="conlacloxo()">Tính toán</button>
+        <button id="button1" onclick="window.location.href = 'https://openclassroom.edu.vn/physicslab/damped-shm/';">Đến thí nghiệm ảo</button>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Simple_harmonic_oscillator.gif" alt="Hình ảnh" style="display: inline-block; width: auto; height: 200px;" >
+        <div style=" padding: 1px; margin-left: 455px; display: inline-block;" >
+          <div id="result" style="z-index: 2;"></div>
+        </div>
+      </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

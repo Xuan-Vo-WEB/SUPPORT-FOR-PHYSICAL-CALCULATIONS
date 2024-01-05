@@ -1,0 +1,104 @@
+h1 {
+    text-align: center;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+}
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+button {
+    justify-content:center;
+    align-items: center;
+    width: 283px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #0099ff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-shadow: 2px 2px 4px black;
+    border: 2px solid black;
+  }
+  
+button:hover {
+  background-color: #0051ff;
+}
+div.botton3 {
+    justify-content:center;
+    align-items: center;
+    width: 283px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 20px;
+    background-color: #0099ff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-shadow: 2px 2px 4px black;
+    border: 2px solid black;
+}
+div.botton1 {
+  justify-content:center;
+  align-items: center;
+  width: 450px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 20px;
+  display: inline-block;
+  background-color: #0099ff;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px black;
+  text-align: center;
+  border: 2px solid black;
+}
+
+div.botton2 {
+  justify-content:center;
+  align-items: center;
+  width: 450px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 20px;
+  display: inline-block;
+  margin-left: 245px;
+  background-color: #0099ff;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px black;
+  text-align: center;
+  border: 2px solid black;
+}
+
+
+#floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url('anh/logo.jpg');
+  background-size: cover;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+

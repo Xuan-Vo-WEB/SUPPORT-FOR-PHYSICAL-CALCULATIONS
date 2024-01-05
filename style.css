@@ -1,0 +1,78 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+#myselect {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    width: 200px; /* Độ rộng của ô select */
+    height: 18px; /* Độ cao của ô select */
+}
+
+option {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    width: 200px; /* Độ rộng của ô select */
+    height: 18px; /* Độ cao của ô select */
+}
+
+h1 {
+    text-align: center;
+}
+
+#inputs {
+    margin-bottom: 40px;
+    font-size: 26px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    padding: 5px 20px;
+    width: 283px;
+    fill: rgba(240, 248, 255, 0.274);
+    font-size: 26px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#result {
+    -webkit-text-fill-color: red;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.541);
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+  }
+  
+.my-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.rotated-image {
+    transform: rotate(45deg);
+}
+audio {
+    margin-left: 500px;
+}
+
+selector {
+    background: url('nhac/Lý\ Kéo\ Chài\ được\ làm\ lại\ từ\ thỏ\ 7\ màu-vi\ chua\ he.mp3') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  
+  

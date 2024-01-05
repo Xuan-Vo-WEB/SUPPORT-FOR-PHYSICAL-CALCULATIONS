@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>  
+<style>
+    body {
+        background: #ffffff url("anh/giaothoa.jpg") no-repeat fixed center; 
+        background-size: 100%;
+    }
+    .image1 {
+        display: inline-block;
+        margin-left: 20px;
+        border: 2px solid #000000;
+        cursor: pointer;
+    }
+
+    .image {
+        margin-left: 264px; /* Thay đổi giá trị 10px tùy ý */
+        border: 2px solid #000000;
+        cursor: pointer;
+    }
+    select {
+        width: 50px; /* Độ rộng của ô select */
+        height: 25px; /* Độ cao của ô select */
+        margin-top: 5px;
+        font-size: 18px; /* Cỡ chữ của ô select */
+        font-family: 'Times New Roman', Times, serif;
+    }
+    input {
+        height: 20px;
+    }
+
+/*D:/CODE/YOUNG/giải lí/*/
+</style>
+<body>
+    
+    <h1></h1>
+
+    <div id="inputs">
+        <label for="lamda">Bước sóng : </label>
+        
+        <input type="number" id="lamda">
+        <select id="ulamda">
+            <option value="m">m</option> 
+            <option value="cm">cm</option>
+            <option value="mm">mm</option>
+            <option value="µm">µm</option>
+        </select>
+        
+        <br>
+
+        <label for="a">Khoảng cách giữa 2 khe : </label>
+        <input type="number" id="a">
+        <select id="ua" name="unit">
+            <option value="m">m</option> 
+            <option value="cm">cm</option>
+            <option value="mm">mm</option>
+            <option value="µm">µm</option>
+        </select>
+        <br>
+
+        <label for="i">Khoảng vân : </label>
+        <input type="number" id="i">
+        <select id="ui" name="unit">
+            <option value="m">m</option> 
+            <option value="cm">cm</option>
+            <option value="mm">mm</option>
+            <option value="µm">µm</option>
+        </select>
+        <br>
+
+        <label for="D">Khoảng cách từ 2 khe đến màn: </label>
+        <input type="number" id="D">
+        <select id="uD" name="unit">
+            <option value="m">m</option> 
+            <option value="cm">cm</option>
+            <option value="mm">mm</option>
+            <option value="µm">µm</option>
+        </select>
+        <br>
+
+        <label for="l">Thứ tự vân sáng: </label>
+        <input type="number" id="k1"><br>
+        <label for="l">Thứ tự vân tối: </label>
+        <input type="number" id="k2"><br>
+
+        <button onclick="giaothoa()">Tính toán</button>
+        <button id="button1" onclick="window.location.href = 'https://openclassroom.edu.vn/physicslab/water-wave-interference/';">Đến thí nghiệm ảo</button>
+
+        
+        
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Two_sources_interference.gif" alt="Hình ảnh" style="width: auto; height: 200px; display: inline-block;">
+        <img src="https://i.pinimg.com/originals/ad/82/3b/ad823bd72f7acd9a2cc6df1514932bd7.gif" alt="Hình ảnh" style="width: auto; height: 200px; display: inline-block;">
+        <div style=" padding: 1px; margin-left: 30px; display: inline-block;" >
+            <div id="result" style="z-index: 2;"></div>
+        </div>
+        
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

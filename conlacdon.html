@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Con lắc đơn</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+  body {
+    background: #ffffff url("anh/lacdon.jpg") no-repeat fixed center; 
+    background-size: 100%;
+  }
+/*D:/CODE/YOUNG/giải lí/*/
+</style>
+<body>
+
+    
+    <h1>CON LẮC ĐƠN</h1>
+
+    <div id="inputs">
+        <label for="l">Chiều dài sợi dây (m): </label>
+        <input type="number" id="l"><br>
+        
+        <button onclick="conlacdon()">Tính toán</button>
+        <button id="button1" onclick="window.location.href = 'https:/openclassroom.edu.vn/physicslab/simple-pendulum-1/'; target='_blank'">Đến thí nghiệm ảo</button>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Oscillating_pendulum.gif" alt="Hình ảnh" style="display: inline-block; width: auto; height: 200px;" >
+        <div style=" padding: 1px; margin-left: 305px; display: inline-block;" >
+          <div id="result" style="z-index: 2;"></div>
+        </div>
+        
+      </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
